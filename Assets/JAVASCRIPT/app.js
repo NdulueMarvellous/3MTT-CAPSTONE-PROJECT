@@ -139,15 +139,16 @@ document.querySelector('#filter-btn').addEventListener('click', () => {
 
 
 // Toggle visibility of login and signup forms
-document.getElementById('show-signup').addEventListener('click', function () {
-    document.getElementById('login-form').classList.remove('active');
-    document.getElementById('signup-form').classList.add('active');
+document.getElementById("show-signup").addEventListener("click", function () {
+    document.getElementById("login-form").classList.remove("active");
+    document.getElementById("signup-form").classList.add("active");
 });
 
-document.getElementById('show-login').addEventListener('click', function () {
-    document.getElementById('signup-form').classList.remove('active');
-    document.getElementById('login-form').classList.add('active');
+document.getElementById("show-login").addEventListener("click", function () {
+    document.getElementById("signup-form").classList.remove("active");
+    document.getElementById("login-form").classList.add("active");
 });
+
 
 
 
